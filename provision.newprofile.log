@@ -1,0 +1,19 @@
+{
+  "profileName": "newprofile",
+  "jobId": "9eaf47f1-4306-4607-acf4-f40d80ea4d17",
+  "projectId": "28665.691042256847",
+  "time": "2022-10-26T23:12:07.929Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Creating Resource Group ...",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 208a201a-a8b1-44d8-8071-399af686c5fe",
+    "> Create App Registration Success! ID: 208a201a-a8b1-44d8-8071-399af686c5fe",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Luis Authoring Resource ...",
+    "Deploying Luis Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}
