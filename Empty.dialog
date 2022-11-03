@@ -43,7 +43,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "value": "dialog.foreach.value"
         }
       ]
     },
@@ -63,9 +64,58 @@
           "activity": "${SendActivity_DidNotUnderstand()}"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "gWHWqE",
+        "name": "equipos"
+      },
+      "intent": "equipos",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "6eLdEN"
+          },
+          "activityProcessed": true,
+          "dialog": "get_equipos"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "hfFdqb",
+        "name": "grupos"
+      },
+      "intent": "grupos",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "CEJ63o"
+          },
+          "activityProcessed": true,
+          "dialog": "get_grupos"
+        }
+      ]
     }
   ],
   "generator": "Empty.lg",
   "id": "Empty",
-  "recognizer": "Empty.lu.qna"
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": [
+      {
+        "intent": "equipos",
+        "pattern": "Equipos"
+      },
+      {
+        "intent": "grupos",
+        "pattern": "Grupos"
+      }
+    ]
+  }
 }

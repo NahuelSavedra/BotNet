@@ -1,0 +1,55 @@
+[import](common.lg)
+
+# SendActivity_mtClPR()
+[Activity
+    Text = ${SendActivity_mtClPR_text()}
+]
+
+# SendActivity_mtClPR_text()
+- ```Grupo A:
+\-Qatar
+\-Ecuador
+\-Senegal
+\-Países Bajos
+
+Grupo B:
+\-Inglaterra
+\-Irán
+\-Estados Unidos
+\-Gales
+
+Grupo C
+\-Argentina
+\-Arabia Saudí
+\-México
+\-Polonia
+
+Grupo D:
+\-Francia
+\-Australia
+\-Dinamarca
+\-Túnez
+
+Grupo E:
+\-España
+\-Costa Rica
+\-Alemania
+\-Japón
+
+Grupo F:
+\-Bélgica
+\-Canadá
+\-Marruecos
+\-Croacia
+
+Grupo G:
+\-Brasil
+\-Serbia
+\-Suiza
+\-Camerún
+
+Grupo H:
+\-Portugal
+\-Ghana
+\-Uruguay
+\-Corea del Sur```

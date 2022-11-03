@@ -6,8 +6,14 @@
 ]
 
 # SendActivity_Greeting_text()
-- Welcome to your bot.
+- ```Bienvenido al Bot del Mundial! Estoy programado para informarte sobre las novedades del mundial qatar 2022.
 
+Para ver equipos escribi : Equipos
+Para ver grupos: Grupos
+
+Y si andas curioso y queres ver los partidos de un equipo en particular solo tenes que ingresar su PAIS.
+
+¡Vamos Argentina!```
 # SendActivity_DidNotUnderstand()
 [Activity
     Text = ${SendActivity_DidNotUnderstand_text()}

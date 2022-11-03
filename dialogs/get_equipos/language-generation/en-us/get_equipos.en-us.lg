@@ -1,0 +1,688 @@
+[import](common.lg)
+
+# TextInput_Prompt_qs6vsG()
+[Activity
+    Text = ${TextInput_Prompt_qs6vsG_text()}
+]
+
+# TextInput_Prompt_qs6vsG_text()
+- ```
+Ingrese el nombre del pais si desea saber mas sobre su equipo en este mundial. ```
+# TextInput_UnrecognizedPrompt_qs6vsG()
+[Activity
+    Text = ${TextInput_UnrecognizedPrompt_qs6vsG_text()}
+]
+
+# TextInput_UnrecognizedPrompt_qs6vsG_text()
+- lo siento, usted no esta ingresando un equipo valido. Por favor elija uno de los 32 equipos clasificados. 
+# TextInput_InvalidPrompt_qs6vsG()
+[Activity
+    Text = ${TextInput_InvalidPrompt_qs6vsG_text()}
+]
+
+# TextInput_InvalidPrompt_qs6vsG_text()
+- lo siento, usted no esta ingresando un equipo valido. Por favor elija uno de los 32 equipos clasificados.
+# SendActivity_IaAXHD()
+[Activity
+    Text = ${SendActivity_IaAXHD_text()}
+]
+
+# SendActivity_IaAXHD_text()
+- ```Los equipos clasificados al mundial son : 
+```
+# SendActivity_9mq9pe()
+[Activity
+    Text = ${SendActivity_9mq9pe_text()}
+]
+
+# SendActivity_9mq9pe_text()
+- ${dialog.seleccion} no es valido.
+# SendActivity_Mgo7tD()
+[Activity
+    Text = ${SendActivity_Mgo7tD_text()}
+]
+
+# SendActivity_Mgo7tD_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo G junto a Camerun , Serbia y Suiza.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Brasil vs Serbia: 24 de noviembre 16:00 horas
+
+Brasil vs. Suiza: 28 de noviembre 13:00 horas
+
+Camerun vs Brasil: 2 de diciembre 16:00 horas
+
+Pertenece a la confederacion Sudamericana de Futbol ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +595\-21/645 781. 
+
+Su sitio web es: www.conmebol.com```
+# SendActivity_XdqPyf()
+[Activity
+    Text = ${SendActivity_XdqPyf_text()}
+]
+
+# SendActivity_XdqPyf_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo A junto a Qatar, Senegal y Holanda.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Qatar vs Ecuador: 20 de noviembre 13:00 horas
+
+Holanda vs. Ecuador: 25 de noviembre 13:00 horas
+
+Ecuador vs Senegal: 29 de noviembre 12:00 horas
+
+Pertenece a la confederacion Sudamericana de Futbol ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +595\-21/645 781. 
+
+Su sitio web es: www.conmebol.com```
+# SendActivity_ja9lag()
+[Activity
+    Text = ${SendActivity_ja9lag_text()}
+]
+
+# SendActivity_ja9lag_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo H junto a Corea Del Sur, Portugal y Ghana.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Uruguay vs Corea del Sur: 24 de noviembre 10:00 horas
+
+Portugal vs. Uruguay: 28 de noviembre 16:00 horas
+
+Ghana vs Uruguay: 2 de diciembre 12:00 horas
+
+Pertenece a la confederacion Sudamericana de Futbol ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +595\-21/645 781. 
+
+Su sitio web es: www.conmebol.com```
+# SendActivity_01fspO()
+[Activity
+    Text = ${SendActivity_01fspO_text()}
+]
+
+# SendActivity_01fspO_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo A junto a Ecuador, Senegal y Holanda.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Qatar vs Ecuador: 20 de noviembre 13:00 horas
+
+Qatar vs. Senegal: 25 de noviembre 10:00 horas
+
+Paises bajos vs Qatar: 29 de noviembre 12:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol Asiatica ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +60\-3/8994 3388. 
+
+Su sitio web es: www.the\-afc.com```
+# SendActivity_DxpgE6()
+[Activity
+    Text = ${SendActivity_DxpgE6_text()}
+]
+
+# SendActivity_DxpgE6_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo C junto a Japon, España y Costa Rica.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Alemania vs. Japon: 23 de noviembre 10:00 horas
+
+Alemania vs. España: 27 de noviembre 16:00 horas
+
+Costa Rica vs Alemania: 1 de diciembre 16:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com
+```
+# SendActivity_0d8nzC()
+[Activity
+    Text = ${SendActivity_0d8nzC_text()}
+]
+
+# SendActivity_0d8nzC_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo D junto a Tunez, Francia y Australia.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Dinamarca vs. Tunez: 22 de noviembre 10:00 horas
+
+Francia vs. Dinamarca: 26 de noviembre 13:00 horas
+
+Dinamarca vs Australia: 30 de noviembre 12:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com```
+# SendActivity_l5p1Cu()
+[Activity
+    Text = ${SendActivity_l5p1Cu_text()}
+]
+
+# SendActivity_l5p1Cu_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo D junto a Tunez, Dinamarca y Australia.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Francia vs. Australia: 22 de noviembre 16:00 horas
+
+Francia vs. Dinamarca: 26 de noviembre 13:00 horas
+
+Tunez vs. Francia: 30 de noviembre 12:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com```
+# SendActivity_JFHCmY()
+[Activity
+    Text = ${SendActivity_JFHCmY_text()}
+]
+
+# SendActivity_JFHCmY_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo D junto a Marruecos, Crocia y Canada.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Belgica vs. Canada: 23 de noviembre 16:00 horas
+
+Belgica vs. Marruecos: 27 de noviembre 10:00 horas
+
+Croacia vs. Belgica: 2 de diciembre 12:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com
+```
+# SendActivity_Ld2Iow()
+[Activity
+    Text = ${SendActivity_Ld2Iow_text()}
+]
+
+# SendActivity_Ld2Iow_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo D junto a Marruecos, Belgica y Canada.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Marruecos vs. Crocia: 23 de noviembre 07:00 horas
+
+Crocia vs. Canada: 27 de noviembre 13:00 horas
+
+Croacia vs. Belgica: 2 de diciembre 12:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com
+```
+# SendActivity_lcKvUs()
+[Activity
+    Text = ${SendActivity_lcKvUs_text()}
+]
+
+# SendActivity_lcKvUs_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo C junto a Japon, Alemania y Costa Rica.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+España vs. Costa Rica: 23 de noviembre 11:00 horas
+
+Alemania vs. España: 27 de noviembre 16:00 horas
+
+España vs Japon: 1 de diciembre 16:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com
+```
+# SendActivity_UA2YiU()
+[Activity
+    Text = ${SendActivity_UA2YiU_text()}
+]
+
+# SendActivity_UA2YiU_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo G junto a Brasil, Camerun y Suiza.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Brasil vs. Serbia: 24 de noviembre 16:00 horas
+
+Camerun vs Serbia: 28 de noviembre 07:00 horas
+
+Serbia vs Suiza: 2 de diciembre 16:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com
+```
+# SendActivity_OTXAYE()
+[Activity
+    Text = ${SendActivity_OTXAYE_text()}
+]
+
+# SendActivity_OTXAYE_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo B junto a Iran, USA y Gales.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Inglaterra vs. Iran: 21 de noviembre 10:00 horas
+
+Usa vs. Inglaterra: 29 de noviembre 16:00 horas
+
+Inglaterra vs. Gales: 29 de noviembre 16:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com
+```
+# SendActivity_GE978q()
+[Activity
+    Text = ${SendActivity_GE978q_text()}
+]
+
+# SendActivity_GE978q_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo G junto a Brasil, Camerun y Serbia.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Suiza vs. Camerun: 24 de noviembre 07:00 horas
+
+Brasil vs Suiza: 28 de noviembre 13:00 horas
+
+Serbia vs Suiza: 2 de diciembre 16:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com
+```
+# SendActivity_ekDjti()
+[Activity
+    Text = ${SendActivity_ekDjti_text()}
+]
+
+# SendActivity_ekDjti_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo A junto a Ecuador, Qatar y Senegal.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Senegal vs. Holanda: 23 de noviembre 16:00 horas
+
+Holanda vs. Ecuador: 25 de noviembre 13:00 horas
+
+Holanda vs. Qatar: 28 de noviembre 12:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com
+```
+# SendActivity_g5ARCf()
+[Activity
+    Text = ${SendActivity_g5ARCf_text()}
+]
+
+# SendActivity_g5ARCf_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo B junto a Inglaterra, Gales y Usa.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Inglaterra vs. Iran: 21 de noviembre 10:00 horas
+
+Gales vs. Iran: 25 de noviembre 11:00 horas
+
+Iran vs. Usa: 29 de noviembre 16:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol Asiatica ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +60\-3/8994 3388. 
+
+Su sitio web es: www.the\-afc.com
+```
+# SendActivity_gTrn9k()
+[Activity
+    Text = ${SendActivity_gTrn9k_text()}
+]
+
+# SendActivity_gTrn9k_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo H junto a Uruguay, Portugal y Ghana.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Corea del sur vs. Uruguay: 24 de noviembre 10:00 horas
+
+Ghana vs. Corea del sur: 28 de noviembre 10:00 horas
+
+Corea del sur vs. Portugal: 2 de Diciembre 12:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol Asiatica ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +60\-3/8994 3388. 
+
+Su sitio web es: www.the\-afc.com```
+# SendActivity_a0zThh()
+[Activity
+    Text = ${SendActivity_a0zThh_text()}
+]
+
+# SendActivity_a0zThh_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo E junto a Alemania, España y Costa Rica.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Alemania vs. Japon: 23 de noviembre 10:00 horas
+
+Japon vs. Costa Rica: 27 de noviembre 07:00 horas
+
+Japon vs. España: 1 de Diciembre 16:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol Asiatica ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +60\-3/8994 3388. 
+
+Su sitio web es: www.the\-afc.com```
+# SendActivity_d5AVEy()
+[Activity
+    Text = ${SendActivity_d5AVEy_text()}
+]
+
+# SendActivity_d5AVEy_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo C junto a Argentina, Mexico y Polonia.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Argentina vs. Arabia Saudita: 24 de noviembre 10:00 horas
+
+Arabia Saudita vs.Polonia: 26 de noviembre 10:00 horas
+
+Mexico vs. Arabia Saudita: 30 de noviembre 12:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol Asiatica ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +60\-3/8994 3388. 
+
+Su sitio web es: www.the\-afc.com```
+# SendActivity_d8nZSC()
+[Activity
+    Text = ${SendActivity_d8nZSC_text()}
+]
+
+# SendActivity_d8nZSC_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo F junto a Marruecos, Belgica y Crocia.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Canada vs. Belgica: 23 de noviembre 16:00 horas
+
+Canada vs. Crocia: 27 de noviembre 13:00 horas
+
+Marruecos vs. Canada: 1 de Diciembre 12:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol de Norteamerica, Centroamerica y el Caribe ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono:  +1\-305/704 3232 
+
+Su sitio web es: www.concacaf.com```
+# SendActivity_TN8MOz()
+[Activity
+    Text = ${SendActivity_TN8MOz_text()}
+]
+
+# SendActivity_TN8MOz_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo B junto a Inglarerra, Gales y Iran.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+USA vs. Gales: 21 de noviembre 16:00 horas
+
+Inglaterra vs. USA: 25 de noviembre 16:00 horas
+
+USA vs. Iran: 29 de noviembre 16:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol de Norteamerica, Centroamerica y el Caribe ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono:  +1\-305/704 3232 
+
+Su sitio web es: www.concacaf.com
+```
+# SendActivity_wBA4G5()
+[Activity
+    Text = ${SendActivity_wBA4G5_text()}
+]
+
+# SendActivity_wBA4G5_text()
+- ```
+La seleccion de ${dialog.seleccion} esta en el grupo C junto a Argentina, Arabia Saudita y Polonia.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Mexico vs. Polonia: 22 de noviembre 13:00 horas
+
+Mexico vs. Argentina: 26 de noviembre 16:00 horas
+
+Mexico vs. Arabia Saudita: 30 de noviembre 16:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol de Norteamerica, Centroamerica y el Caribe ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono:  +1\-305/704 3232 
+
+Su sitio web es: www.concacaf.com```
+# SendActivity_cB6lun()
+[Activity
+    Text = ${SendActivity_cB6lun_text()}
+]
+
+# SendActivity_cB6lun_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo  junto a Qatar, Holanda y Ecuador.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Senegal vs. Holanda: 21 de noviembre 13:00 horas
+
+Senegal vs. Qatar: 25 de noviembre 10:00 horas
+
+Ecuador vs. Senegal: 30 de noviembre 16:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion Africana de Futbol ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +20\-2/3824 7272. 
+
+Su sitio web es: www.cafonline.com
+```
+# SendActivity_p6eutd()
+[Activity
+    Text = ${SendActivity_p6eutd_text()}
+]
+
+# SendActivity_p6eutd_text()
+- ```
+La seleccion de ${dialog.seleccion} esta en el grupo  junto a Corea del sur, Portugal y Uruguay.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Ghana vs. Portugal: 24 de noviembre 13:00 horas
+
+Corea del Sur vs. Ghana: 28 de noviembre 10:00 horas
+
+Ghana vs. Uruguay: 2 de Diciembre 16:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion Africana de Futbol ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +20\-2/3824 7272. 
+
+Su sitio web es: www.cafonline.com```
+# SendActivity_yV85MY()
+[Activity
+    Text = ${SendActivity_yV85MY_text()}
+]
+
+# SendActivity_yV85MY_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo  junto a Argentina, Arabia Saudita y Mexico.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Polonia vs. Mexico: 22 de noviembre 13:00 horas
+
+Arabia Saudita vs. Polonia: 26 de noviembre 10:00 horas
+
+Argentina vs. Polonia: 30 de noviembre 16:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com```
+# SendActivity_4uM5V6()
+[Activity
+    Text = ${SendActivity_4uM5V6_text()}
+]
+
+# SendActivity_4uM5V6_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo  junto a Uruguay, Corea Del Sur y Ghana.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Portugal vs. Ghana: 24 de noviembre 13:00 horas
+
+Portugal vs. Uruguay: 28 de noviembre 16:00 horas
+
+Portugal vs. Corea del sur: 2 de diciembre 12:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol europea ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +41\-848/00 27 27. 
+
+Su sitio web es: www.uefa.com```
+# SendActivity_Iqs7y4()
+[Activity
+    Text = ${SendActivity_Iqs7y4_text()}
+]
+
+# SendActivity_Iqs7y4_text()
+- ```
+La seleccion de ${dialog.seleccion} esta en el grupo D junto a Francia, Dinamarca y Australia.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Tunez vs. Dinamarca: 22 de noviembre 13:00 horas
+
+Australia vs. Tunez: 26 de noviembre 16:00 horas
+
+Tunez vs. Francia: 30 de noviembre 12:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion Africana de Futbol ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +20\-2/3824 7272. 
+
+Su sitio web es: www.cafonline.com
+```
+# SendActivity_2U9nqJ()
+[Activity
+    Text = ${SendActivity_2U9nqJ_text()}
+]
+
+# SendActivity_2U9nqJ_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo D junto a Belgica, Crocia y Canada.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Marruecos vs. Crocia: 22 de noviembre 13:00 horas
+
+Belgica vs. Marruecos: 26 de noviembre 16:00 horas
+
+Marruecos vs. Canada: 30 de noviembre 12:00 horas
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol Asiatica ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +60\-3/8994 3388. 
+
+Su sitio web es: www.the\-afc.com
+```
+# SendActivity_ZemKNw()
+[Activity
+    Text = ${SendActivity_ZemKNw_text()}
+]
+
+# SendActivity_ZemKNw_text()
+- ```
+La seleccion de ${dialog.seleccion} esta en el grupo D junto a Suiza, Brasil y Serbia.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Camerun vs. Suiza: 22 de noviembre 13:00 horas
+
+Camerun vs. Serbia: 26 de noviembre 16:00 horas
+
+Brasil vs. Camerun: 30 de noviembre 12:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion Africana de Futbol ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +20\-2/3824 7272. 
+
+Su sitio web es: www.cafonline.com```
+# SendActivity_xn67Zq()
+[Activity
+    Text = ${SendActivity_xn67Zq_text()}
+]
+
+# SendActivity_xn67Zq_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo B junto a Inglaterra, Iran y Usa
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Gales vs. Usa: 22 de noviembre 13:00 horas
+
+Iran vs. Gales: 26 de noviembre 16:00 horas
+
+Gales vs. Inglaterra: 30 de noviembre 12:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion Africana de Futbol ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +20\-2/3824 7272. 
+
+Su sitio web es: www.cafonline.com```
+# SendActivity_nqyxmO()
+[Activity
+    Text = ${SendActivity_nqyxmO_text()}
+]
+
+# SendActivity_nqyxmO_text()
+- ```
+La seleccion de ${dialog.seleccion} esta en el grupo D junto a Tunez, Francia y Dinamarca.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Australia vs. Francia: 22 de noviembre 10:00 horas
+
+Tunez vs. Australia: 26 de noviembre 13:00 horas
+
+Dinamarca vs Australia: 30 de noviembre 12:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol Asiatica ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +60\-3/8994 3388. 
+
+Su sitio web es: www.the\-afc.com```
+# SendActivity_OW2KRh()
+[Activity
+    Text = ${SendActivity_OW2KRh_text()}
+]
+
+# SendActivity_OW2KRh_text()
+- ```
+La seleccion de ${dialog.seleccion} esta en el grupo E junto a Alemania, España, Japon.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Costa Rica vs. España: 22 de noviembre 10:00 horas
+
+Costa Rica vs. Japon: 26 de noviembre 13:00 horas
+
+Alemania vs Costa Rica: 30 de noviembre 12:00 horas
+
+
+La seleccion de ${dialog.seleccion} pertenece a la confederacion de futbol de Norteamerica, Centroamerica y el Caribe ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono:  +1\-305/704 3232 
+
+Su sitio web es: www.concacaf.com```
+# SendActivity_s1uscv()
+[Activity
+    Text = ${SendActivity_s1uscv_text()}
+]
+
+# SendActivity_s1uscv_text()
+- algo salio mal  ${dialog.api_response.content.message}.
+# SendActivity_htsYAW()
+[Activity
+    Text = ${SendActivity_htsYAW_text()}
+]
+
+# SendActivity_htsYAW_text()
+- ```La seleccion de ${dialog.seleccion} esta en el grupo C junto a Arabia Saudita , Mexico y Polonia.
+
+FECHA Y HORARIOS DE LOS PARTIDOS:
+
+Argentina vs. Arabia Saudita: 22 de noviembre 7:00 horas
+
+Argentina vs. México: 26 de noviembre 16:00 horas
+
+Argentina vs Polonia: 30 de noviembre 16 horas
+
+Pertenece a la confederacion Sudamericana de Futbol ( ${dialog.confederacion} ) , para comunicarte con la ${dialog.confederacion} podes llamar al  Teléfono: +595\-21/645 781. 
+
+Su sitio web es: www.conmebol.com```

@@ -1,0 +1,492 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "YvPwZJ",
+    "name": "get_equipos",
+    "comment": "obtener equipos clasificados del mundial\n"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "3e57Rc"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "IaAXHD"
+          },
+          "activity": "${SendActivity_IaAXHD()}"
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "rdeNlX"
+          },
+          "property": "user.equipo",
+          "value": "=@userpais"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "qs6vsG",
+            "comment": ""
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": true,
+          "unrecognizedPrompt": "${TextInput_UnrecognizedPrompt_qs6vsG()}",
+          "prompt": "${TextInput_Prompt_qs6vsG()}",
+          "property": "user.equipo ",
+          "invalidPrompt": "${TextInput_InvalidPrompt_qs6vsG()}",
+          "validations": []
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "5lA8gZ"
+          },
+          "actions": [
+            {
+              "$kind": "Microsoft.SetProperty",
+              "$designer": {
+                "id": "mOIqRG"
+              },
+              "property": "user.equipo",
+              "value": "=user.equipo"
+            },
+            {
+              "$kind": "Microsoft.SwitchCondition",
+              "$designer": {
+                "id": "2IPyzw"
+              },
+              "condition": "=user.equipo",
+              "cases": [
+                {
+                  "value": "Argentina",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "htsYAW"
+                      },
+                      "activity": "${SendActivity_htsYAW()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Brasil",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "Mgo7tD"
+                      },
+                      "activity": "${SendActivity_Mgo7tD()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Ecuador",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "XdqPyf"
+                      },
+                      "activity": "${SendActivity_XdqPyf()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Uruguay",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ja9lag"
+                      },
+                      "activity": "${SendActivity_ja9lag()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Qatar",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "01fspO"
+                      },
+                      "activity": "${SendActivity_01fspO()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Alemania",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "DxpgE6"
+                      },
+                      "activity": "${SendActivity_DxpgE6()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Dinamarca",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "0d8nzC"
+                      },
+                      "activity": "${SendActivity_0d8nzC()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Francia",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "l5p1Cu"
+                      },
+                      "activity": "${SendActivity_l5p1Cu()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Belgica",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "JFHCmY"
+                      },
+                      "activity": "${SendActivity_JFHCmY()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Croacia",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "Ld2Iow"
+                      },
+                      "activity": "${SendActivity_Ld2Iow()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "España",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "lcKvUs"
+                      },
+                      "activity": "${SendActivity_lcKvUs()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Serbia",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "UA2YiU"
+                      },
+                      "activity": "${SendActivity_UA2YiU()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Inglaterra",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "OTXAYE"
+                      },
+                      "activity": "${SendActivity_OTXAYE()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Suiza",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "GE978q"
+                      },
+                      "activity": "${SendActivity_GE978q()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Holanda",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ekDjti"
+                      },
+                      "activity": "${SendActivity_ekDjti()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Iran",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "g5ARCf"
+                      },
+                      "activity": "${SendActivity_g5ARCf()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Corea del Sur",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "gTrn9k"
+                      },
+                      "activity": "${SendActivity_gTrn9k()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Japon",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "a0zThh"
+                      },
+                      "activity": "${SendActivity_a0zThh()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Arabia saudi",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "d5AVEy"
+                      },
+                      "activity": "${SendActivity_d5AVEy()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Canada",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "d8nZSC"
+                      },
+                      "activity": "${SendActivity_d8nZSC()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Estados Unidos",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "TN8MOz"
+                      },
+                      "activity": "${SendActivity_TN8MOz()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Mexico",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "wBA4G5"
+                      },
+                      "activity": "${SendActivity_wBA4G5()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Ghana",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "p6eutd"
+                      },
+                      "activity": "${SendActivity_p6eutd()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Senegal",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "cB6lun"
+                      },
+                      "activity": "${SendActivity_cB6lun()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Polonia",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "yV85MY"
+                      },
+                      "activity": "${SendActivity_yV85MY()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Portugal",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "4uM5V6"
+                      },
+                      "activity": "${SendActivity_4uM5V6()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Tunez",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "Iqs7y4"
+                      },
+                      "activity": "${SendActivity_Iqs7y4()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Marruecos",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "2U9nqJ"
+                      },
+                      "activity": "${SendActivity_2U9nqJ()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Camerun",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ZemKNw"
+                      },
+                      "activity": "${SendActivity_ZemKNw()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Gales",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "xn67Zq"
+                      },
+                      "activity": "${SendActivity_xn67Zq()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Australia",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "nqyxmO"
+                      },
+                      "activity": "${SendActivity_nqyxmO()}"
+                    }
+                  ]
+                },
+                {
+                  "value": "Costa Rica",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "OW2KRh"
+                      },
+                      "activity": "${SendActivity_OW2KRh()}"
+                    }
+                  ]
+                }
+              ],
+              "default": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "9mq9pe",
+                    "comment": "La seleccion de ${dialog.seleccion} no esta clasificada para el mundial"
+                  },
+                  "activity": "${SendActivity_9mq9pe()}"
+                }
+              ]
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "s1uscv"
+              },
+              "activity": "${SendActivity_s1uscv()}"
+            },
+            {
+              "$kind": "Microsoft.DeleteProperty",
+              "$designer": {
+                "id": "oqF4DT"
+              },
+              "property": "user.equipo "
+            }
+          ],
+          "condition": "=user.equipo!=null"
+        }
+      ]
+    }
+  ],
+  "generator": "get_equipos.lg",
+  "recognizer": "get_equipos.lu.qna",
+  "id": "get_equipos"
+}
