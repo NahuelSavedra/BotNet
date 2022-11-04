@@ -101,6 +101,42 @@
           "dialog": "get_grupos"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "u77bGI",
+        "name": "cancelar"
+      },
+      "intent": "cancelar",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "rCbMWt"
+          },
+          "activityProcessed": true,
+          "dialog": "CancelDialog"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "iCZCww",
+        "name": "ayuda"
+      },
+      "intent": "ayuda",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "EtJfOJ"
+          },
+          "activityProcessed": true,
+          "dialog": "HelpDialog"
+        }
+      ]
     }
   ],
   "generator": "Empty.lg",
@@ -115,6 +151,14 @@
       {
         "intent": "grupos",
         "pattern": "Grupos"
+      },
+      {
+        "intent": "cancelar",
+        "pattern": "cancelar|salir"
+      },
+      {
+        "intent": "ayuda",
+        "pattern": "ayuda|no entiendo|que hago|help"
       }
     ]
   }

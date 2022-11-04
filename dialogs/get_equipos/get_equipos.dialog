@@ -45,7 +45,8 @@
           "prompt": "${TextInput_Prompt_qs6vsG()}",
           "property": "user.equipo ",
           "invalidPrompt": "${TextInput_InvalidPrompt_qs6vsG()}",
-          "validations": []
+          "validations": [],
+          "outputFormat": "${toUpper(this.value)}"
         },
         {
           "$kind": "Microsoft.IfCondition",
@@ -69,7 +70,7 @@
               "condition": "=user.equipo",
               "cases": [
                 {
-                  "value": "Argentina",
+                  "value": "ARGENTINA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -81,7 +82,7 @@
                   ]
                 },
                 {
-                  "value": "Brasil",
+                  "value": "BRASIL",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -93,7 +94,7 @@
                   ]
                 },
                 {
-                  "value": "Ecuador",
+                  "value": "ECUADOR",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -105,7 +106,7 @@
                   ]
                 },
                 {
-                  "value": "Uruguay",
+                  "value": "URUGUAY",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -117,7 +118,7 @@
                   ]
                 },
                 {
-                  "value": "Qatar",
+                  "value": "QATAR",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -129,7 +130,7 @@
                   ]
                 },
                 {
-                  "value": "Alemania",
+                  "value": "ALEMANIA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -141,7 +142,6 @@
                   ]
                 },
                 {
-                  "value": "Dinamarca",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -150,10 +150,11 @@
                       },
                       "activity": "${SendActivity_0d8nzC()}"
                     }
-                  ]
+                  ],
+                  "value": "DINAMARCA"
                 },
                 {
-                  "value": "Francia",
+                  "value": "FRANCIA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -165,7 +166,6 @@
                   ]
                 },
                 {
-                  "value": "Belgica",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -174,10 +174,11 @@
                       },
                       "activity": "${SendActivity_JFHCmY()}"
                     }
-                  ]
+                  ],
+                  "value": "BELGICA"
                 },
                 {
-                  "value": "Croacia",
+                  "value": "CROACIA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -189,7 +190,7 @@
                   ]
                 },
                 {
-                  "value": "España",
+                  "value": "ESPAÑA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -201,7 +202,7 @@
                   ]
                 },
                 {
-                  "value": "Serbia",
+                  "value": "SERBIA ",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -213,7 +214,7 @@
                   ]
                 },
                 {
-                  "value": "Inglaterra",
+                  "value": "INGLATERRA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -225,7 +226,7 @@
                   ]
                 },
                 {
-                  "value": "Suiza",
+                  "value": "SUIZA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -237,7 +238,6 @@
                   ]
                 },
                 {
-                  "value": "Holanda",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -246,10 +246,11 @@
                       },
                       "activity": "${SendActivity_ekDjti()}"
                     }
-                  ]
+                  ],
+                  "value": "HOLANDA"
                 },
                 {
-                  "value": "Iran",
+                  "value": "IRAN",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -261,7 +262,7 @@
                   ]
                 },
                 {
-                  "value": "Corea del Sur",
+                  "value": "COREA DEL SUR",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -273,7 +274,7 @@
                   ]
                 },
                 {
-                  "value": "Japon",
+                  "value": "JAPON",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -285,7 +286,7 @@
                   ]
                 },
                 {
-                  "value": "Arabia saudi",
+                  "value": "ARABIA SAUDITA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -297,7 +298,7 @@
                   ]
                 },
                 {
-                  "value": "Canada",
+                  "value": "CANADA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -309,7 +310,7 @@
                   ]
                 },
                 {
-                  "value": "Estados Unidos",
+                  "value": "ESTADOS UNIDOS",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -321,7 +322,7 @@
                   ]
                 },
                 {
-                  "value": "Mexico",
+                  "value": "MEXICO",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -333,7 +334,7 @@
                   ]
                 },
                 {
-                  "value": "Ghana",
+                  "value": "GHANA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -345,7 +346,7 @@
                   ]
                 },
                 {
-                  "value": "Senegal",
+                  "value": "SENEGAL",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -357,7 +358,7 @@
                   ]
                 },
                 {
-                  "value": "Polonia",
+                  "value": "POLONIA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -369,7 +370,7 @@
                   ]
                 },
                 {
-                  "value": "Portugal",
+                  "value": "PORTUGAL",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -381,7 +382,7 @@
                   ]
                 },
                 {
-                  "value": "Tunez",
+                  "value": "TUNEZ",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -393,7 +394,7 @@
                   ]
                 },
                 {
-                  "value": "Marruecos",
+                  "value": "MARRUECOS",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -405,7 +406,7 @@
                   ]
                 },
                 {
-                  "value": "Camerun",
+                  "value": "CAMERUN",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -417,7 +418,7 @@
                   ]
                 },
                 {
-                  "value": "Gales",
+                  "value": "GALES",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -429,7 +430,7 @@
                   ]
                 },
                 {
-                  "value": "Australia",
+                  "value": "AUSTRALIA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
@@ -441,7 +442,7 @@
                   ]
                 },
                 {
-                  "value": "Costa Rica",
+                  "value": "COSTA RICA",
                   "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",

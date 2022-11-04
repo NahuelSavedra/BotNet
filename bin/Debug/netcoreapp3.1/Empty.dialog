@@ -101,6 +101,24 @@
           "dialog": "get_grupos"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "u77bGI",
+        "name": "cancelar"
+      },
+      "intent": "cancelar",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "rCbMWt"
+          },
+          "activityProcessed": true,
+          "dialog": "CancelDialog"
+        }
+      ]
     }
   ],
   "generator": "Empty.lg",
@@ -115,6 +133,10 @@
       {
         "intent": "grupos",
         "pattern": "Grupos"
+      },
+      {
+        "intent": "cancelar",
+        "pattern": "cancelar|salir"
       }
     ]
   }

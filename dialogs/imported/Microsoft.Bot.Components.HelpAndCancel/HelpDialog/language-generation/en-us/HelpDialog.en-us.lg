@@ -1,0 +1,14 @@
+[import](common.lg)
+
+# SendActivity_HelpOverview()
+[Activity
+    Text = ${SendActivity_HelpOverview_text()}
+]
+
+# SendActivity_HelpOverview_text()
+- ```Para saber los equipos escribi : equipos
+Para saber los grupos escribi : Grupos
+Si queres saber los horarios de los partidos de una seleccion escribi su nombre.
+```
+
+> Imported: 95949fcc5eb2077f9cffd10817a11340

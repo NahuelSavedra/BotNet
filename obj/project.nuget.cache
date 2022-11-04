@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SKqEHmRiK51q6uwktIt8ZEvOXcRmNls5Evy7m4KzTzLwcQ/ggpC3LD3Dj+2cvGDiLt9io7eAUmMqldg3NxPo5Q==",
+  "dgSpecHash": "I6Pt/8oOTBs/z+X+ER2pjiER2fFGFfQjSw1CCzDF79muvfSk6xE78aTtsHblnvteDyP9JBm6zNaK3wfpwZcYLQ==",
   "success": true,
   "projectFilePath": "F:\\TECNICATURA DESARROLLADOR WEB\\PROGRAMACION WEB 3\\Empty\\Empty.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "C:\\Users\\facun\\.nuget\\packages\\microsoft.bot.builder.integration.applicationinsights.core\\4.17.1\\microsoft.bot.builder.integration.applicationinsights.core.4.17.1.nupkg.sha512",
     "C:\\Users\\facun\\.nuget\\packages\\microsoft.bot.builder.integration.aspnet.core\\4.17.1\\microsoft.bot.builder.integration.aspnet.core.4.17.1.nupkg.sha512",
     "C:\\Users\\facun\\.nuget\\packages\\microsoft.bot.builder.languagegeneration\\4.17.1\\microsoft.bot.builder.languagegeneration.4.17.1.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\microsoft.bot.components.helpandcancel\\1.4.0\\microsoft.bot.components.helpandcancel.1.4.0.nupkg.sha512",
     "C:\\Users\\facun\\.nuget\\packages\\microsoft.bot.configuration\\4.17.1\\microsoft.bot.configuration.4.17.1.nupkg.sha512",
     "C:\\Users\\facun\\.nuget\\packages\\microsoft.bot.connector\\4.17.1\\microsoft.bot.connector.4.17.1.nupkg.sha512",
     "C:\\Users\\facun\\.nuget\\packages\\microsoft.bot.connector.streaming\\4.17.1\\microsoft.bot.connector.streaming.4.17.1.nupkg.sha512",

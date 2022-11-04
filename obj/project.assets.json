@@ -860,6 +860,12 @@
           }
         }
       },
+      "Microsoft.Bot.Components.HelpAndCancel/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime": "4.17.0"
+        }
+      },
       "Microsoft.Bot.Configuration/4.17.1": {
         "type": "package",
         "dependencies": {
@@ -4539,6 +4545,32 @@
         "lib/netstandard2.0/Microsoft.Bot.Builder.LanguageGeneration.xml",
         "microsoft.bot.builder.languagegeneration.4.17.1.nupkg.sha512",
         "microsoft.bot.builder.languagegeneration.nuspec"
+      ]
+    },
+    "Microsoft.Bot.Components.HelpAndCancel/1.4.0": {
+      "sha512": "XB73fOHdF9tcD3k31E7HBRSPwamf70qVi/z6uF2Ak8PwQa8QpWpMfnR8e9Dunr0odzAGDbhCVf1mvBbbwyM88A==",
+      "type": "package",
+      "path": "microsoft.bot.components.helpandcancel/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "exported/CancelDialog/CancelDialog.dialog",
+        "exported/CancelDialog/knowledge-base/en-us/CancelDialog.en-us.qna",
+        "exported/CancelDialog/language-generation/en-us/CancelDialog.en-us.lg",
+        "exported/CancelDialog/language-understanding/en-us/CancelDialog.en-us.lu",
+        "exported/CancelDialog/recognizers/CancelDialog.en-us.lu.dialog",
+        "exported/CancelDialog/recognizers/CancelDialog.lu.dialog",
+        "exported/CancelDialog/recognizers/CancelDialog.lu.qna.dialog",
+        "exported/HelpDialog/HelpDialog.dialog",
+        "exported/HelpDialog/knowledge-base/en-us/HelpDialog.en-us.qna",
+        "exported/HelpDialog/language-generation/en-us/HelpDialog.en-us.lg",
+        "exported/HelpDialog/language-understanding/en-us/HelpDialog.en-us.lu",
+        "exported/HelpDialog/recognizers/HelpDialog.en-us.lu.dialog",
+        "exported/HelpDialog/recognizers/HelpDialog.lu.dialog",
+        "exported/HelpDialog/recognizers/HelpDialog.lu.qna.dialog",
+        "microsoft.bot.components.helpandcancel.1.4.0.nupkg.sha512",
+        "microsoft.bot.components.helpandcancel.nuspec"
       ]
     },
     "Microsoft.Bot.Configuration/4.17.1": {
@@ -10248,7 +10280,8 @@
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.8",
       "Microsoft.Bot.Builder.AI.Luis >= 4.17.1",
       "Microsoft.Bot.Builder.AI.QnA >= 4.17.1",
-      "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime >= 4.17.1"
+      "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime >= 4.17.1",
+      "Microsoft.Bot.Components.HelpAndCancel >= 1.4.0"
     ]
   },
   "packageFolders": {
@@ -10313,6 +10346,10 @@
           "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime": {
             "target": "Package",
             "version": "[4.17.1, )"
+          },
+          "Microsoft.Bot.Components.HelpAndCancel": {
+            "target": "Package",
+            "version": "[1.4.0, )"
           }
         },
         "imports": [

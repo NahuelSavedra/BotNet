@@ -29,6 +29,12 @@ Ingrese el nombre del pais si desea saber mas sobre su equipo en este mundial. `
 
 # SendActivity_IaAXHD_text()
 - ```Los equipos clasificados al mundial son : 
+Qatar (anfitrión), Argentina, Ecuador, Senegal, Países Bajos, Inglaterra, Irán, Estados Unidos, Gales, Arabia Saudí, México, Polonia, Francia, Australia, Dinamarca, Túnez, España, Costa Rica, Alemania, Japón, Bélgica, Canadá, Marruecos, Croacia, Brasil, Serbia, Suiza, Camerún, Portugal, Ghana, Uruguay y Corea del Sur.
+
+
+
+
+
 ```
 # SendActivity_9mq9pe()
 [Activity
@@ -36,7 +42,7 @@ Ingrese el nombre del pais si desea saber mas sobre su equipo en este mundial. `
 ]
 
 # SendActivity_9mq9pe_text()
-- ${dialog.seleccion} no es valido.
+- ${user.equipo} no es una opcion valida.
 # SendActivity_Mgo7tD()
 [Activity
     Text = ${SendActivity_Mgo7tD_text()}
@@ -666,14 +672,14 @@ Su sitio web es: www.concacaf.com```
 ]
 
 # SendActivity_s1uscv_text()
-- algo salio mal  ${dialog.api_response.content.message}.
+- por favor ingrese un equipo
 # SendActivity_htsYAW()
 [Activity
     Text = ${SendActivity_htsYAW_text()}
 ]
 
 # SendActivity_htsYAW_text()
-- ```La seleccion de ${dialog.seleccion} esta en el grupo C junto a Arabia Saudita , Mexico y Polonia.
+- ```La seleccion de ${user.equipo} esta en el grupo C junto a Arabia Saudita , Mexico y Polonia.
 
 FECHA Y HORARIOS DE LOS PARTIDOS:
 

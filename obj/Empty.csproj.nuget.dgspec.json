@@ -62,6 +62,10 @@
             "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime": {
               "target": "Package",
               "version": "[4.17.1, )"
+            },
+            "Microsoft.Bot.Components.HelpAndCancel": {
+              "target": "Package",
+              "version": "[1.4.0, )"
             }
           },
           "imports": [
