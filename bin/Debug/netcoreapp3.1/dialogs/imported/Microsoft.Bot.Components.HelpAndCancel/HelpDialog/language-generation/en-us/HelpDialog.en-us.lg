@@ -6,8 +6,9 @@
 ]
 
 # SendActivity_HelpOverview_text()
-- I'm here to help with simple asks. I'm just a basic bot for now. 
-- I'm a simple bot, I can help you with minimal requests. 
-- For now, I can only help you with simple questions.
+- ```Si queres saber los equipos escribi : equipos
+Para saber los grupos escribi : Grupos
+Y si deseas saber los partidos de un Equipo en particular Escribi: Seleccion.
+```
 
 > Imported: 95949fcc5eb2077f9cffd10817a11340

@@ -79,7 +79,7 @@
             "id": "6eLdEN"
           },
           "activityProcessed": true,
-          "dialog": "get_equipos"
+          "dialog": "get_selecciones"
         }
       ],
       "entities": []
@@ -137,6 +137,25 @@
           "dialog": "HelpDialog"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "YrRq12",
+        "name": "seleccion"
+      },
+      "intent": "seleccion",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "epNSez"
+          },
+          "activityProcessed": true,
+          "dialog": "get_equipos"
+        }
+      ],
+      "entities": []
     }
   ],
   "generator": "Empty.lg",
@@ -159,6 +178,10 @@
       {
         "intent": "ayuda",
         "pattern": "ayuda|no entiendo|que hago|help"
+      },
+      {
+        "intent": "seleccion",
+        "pattern": "seleccion"
       }
     ]
   }

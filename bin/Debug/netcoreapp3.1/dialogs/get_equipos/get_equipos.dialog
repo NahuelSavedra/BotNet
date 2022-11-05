@@ -17,21 +17,6 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "IaAXHD"
-          },
-          "activity": "${SendActivity_IaAXHD()}"
-        },
-        {
-          "$kind": "Microsoft.SetProperty",
-          "$designer": {
-            "id": "rdeNlX"
-          },
-          "property": "user.equipo",
-          "value": "=@userpais"
-        },
-        {
           "$kind": "Microsoft.TextInput",
           "$designer": {
             "id": "qs6vsG",
@@ -42,11 +27,11 @@
           "alwaysPrompt": false,
           "allowInterruptions": true,
           "unrecognizedPrompt": "${TextInput_UnrecognizedPrompt_qs6vsG()}",
-          "prompt": "${TextInput_Prompt_qs6vsG()}",
           "property": "user.equipo ",
           "invalidPrompt": "${TextInput_InvalidPrompt_qs6vsG()}",
           "validations": [],
-          "outputFormat": "${toUpper(this.value)}"
+          "outputFormat": "${toUpper(this.value)}",
+          "prompt": "${TextInput_Prompt_qs6vsG()}"
         },
         {
           "$kind": "Microsoft.IfCondition",
@@ -468,9 +453,17 @@
             {
               "$kind": "Microsoft.BeginDialog",
               "$designer": {
-                "id": "nHRQ80"
+                "id": "4fv2oK"
               },
-              "activityProcessed": true
+              "activityProcessed": true,
+              "dialog": "HelpDialog"
+            },
+            {
+              "$kind": "Microsoft.DeleteProperty",
+              "$designer": {
+                "id": "UsSoHH"
+              },
+              "property": "user.equipo "
             }
           ],
           "elseActions": [
@@ -490,11 +483,20 @@
             }
           ],
           "condition": "=user.equipo!=null"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "WQCC0S"
+          }
         }
       ]
     }
   ],
   "generator": "get_equipos.lg",
-  "recognizer": "get_equipos.lu.qna",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
   "id": "get_equipos"
 }

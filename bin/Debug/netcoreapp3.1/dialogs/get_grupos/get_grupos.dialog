@@ -23,6 +23,14 @@
             "comment": ""
           },
           "activity": "${SendActivity_mtClPR()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "fCQYwV"
+          },
+          "activityProcessed": true,
+          "dialog": "get_equipos"
         }
       ]
     }

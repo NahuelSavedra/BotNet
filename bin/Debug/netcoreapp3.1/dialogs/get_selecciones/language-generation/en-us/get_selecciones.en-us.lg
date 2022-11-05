@@ -1,0 +1,17 @@
+[import](common.lg)
+
+# SendActivity_r8Il3K()
+[Activity
+    Text = ${SendActivity_r8Il3K_text()}
+]
+
+# SendActivity_r8Il3K_text()
+- ```Los equipos clasificados al mundial son : 
+Qatar (anfitrión), Argentina, Ecuador, Senegal, Países Bajos, Inglaterra, Irán, Estados Unidos, Gales, Arabia Saudí, México, Polonia, Francia, Australia, Dinamarca, Túnez, España, Costa Rica, Alemania, Japón, Bélgica, Canadá, Marruecos, Croacia, Brasil, Serbia, Suiza, Camerún, Portugal, Ghana, Uruguay y Corea del Sur.
+
+
+
+
+
+
+```

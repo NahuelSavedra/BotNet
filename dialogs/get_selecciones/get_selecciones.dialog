@@ -1,9 +1,9 @@
 {
   "$kind": "Microsoft.AdaptiveDialog",
   "$designer": {
-    "id": "18Egqz",
-    "name": "get_grupos",
-    "comment": "Obtiene los grupos \n"
+    "id": "6NdY2Y",
+    "name": "get_selecciones",
+    "comment": ""
   },
   "autoEndDialog": true,
   "defaultResultProperty": "dialog.result",
@@ -13,21 +13,20 @@
       "$designer": {
         "name": "BeginDialog",
         "description": "",
-        "id": "WeXm5V"
+        "id": "bq37ib"
       },
       "actions": [
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "mtClPR",
-            "comment": ""
+            "id": "r8Il3K"
           },
-          "activity": "${SendActivity_mtClPR()}"
+          "activity": "${SendActivity_r8Il3K()}"
         },
         {
           "$kind": "Microsoft.BeginDialog",
           "$designer": {
-            "id": "fCQYwV"
+            "id": "AMPNJe"
           },
           "activityProcessed": true,
           "dialog": "get_equipos"
@@ -35,7 +34,10 @@
       ]
     }
   ],
-  "generator": "get_grupos.lg",
-  "recognizer": "get_grupos.lu.qna",
-  "id": "get_grupos"
+  "generator": "get_selecciones.lg",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "id": "get_selecciones"
 }

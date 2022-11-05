@@ -6,9 +6,9 @@
 ]
 
 # SendActivity_HelpOverview_text()
-- ```Para saber los equipos escribi : equipos
+- ```Si queres saber los equipos escribi : equipos
 Para saber los grupos escribi : Grupos
-Si queres saber los horarios de los partidos de una seleccion escribi su nombre.
+Y si deseas saber los partidos de un Equipo en particular Escribi: Seleccion.
 ```
 
 > Imported: 95949fcc5eb2077f9cffd10817a11340
