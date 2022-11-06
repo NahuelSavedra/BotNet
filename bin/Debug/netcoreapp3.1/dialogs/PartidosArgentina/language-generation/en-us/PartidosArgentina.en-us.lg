@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# SendActivity_Ncwh5L_text()
+- ${dialog.foreach.value.homeTeam.name} vs ${dialog.foreach.value.awayTeam.name}  ${dialog.foreach.value.utcDate}
+# SendActivity_Ncwh5L()
+[Activity
+    Text = ${SendActivity_Ncwh5L_text()}
+]
+
+# SendActivity_vNQb2c()
+[Activity
+    Text = ${SendActivity_vNQb2c_text()}
+]
+
+# SendActivity_vNQb2c_text()
+- Los partidos de la seleccion argentina son:

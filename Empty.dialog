@@ -45,7 +45,8 @@
             }
           ]
         }
-      ]
+      ],
+      "condition": true
     },
     {
       "$kind": "Microsoft.OnUnknownIntent",
@@ -63,9 +64,80 @@
           "activity": "${SendActivity_DidNotUnderstand()}"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "VBBMSe",
+        "name": "fixture"
+      },
+      "intent": "fixture",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "89xpEH"
+          },
+          "activityProcessed": true,
+          "dialog": "mostrarFixture"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "SPLwka",
+        "name": "partidos"
+      },
+      "intent": "partidos",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "e7NcIn"
+          },
+          "activityProcessed": true,
+          "dialog": "PartidosArgentina"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "JxjQVg",
+        "name": "PartidosPorDia"
+      },
+      "intent": "PartidosPorDia",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "PluruS"
+          },
+          "activityProcessed": true,
+          "dialog": "PartidosPorDia"
+        }
+      ]
     }
   ],
   "generator": "Empty.lg",
   "id": "Empty",
-  "recognizer": "Empty.lu.qna"
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": [
+      {
+        "intent": "fixture",
+        "pattern": "fixture"
+      },
+      {
+        "intent": "partidos",
+        "pattern": "partidos"
+      },
+      {
+        "intent": "PartidosPorDia",
+        "pattern": "dia"
+      }
+    ]
+  }
 }

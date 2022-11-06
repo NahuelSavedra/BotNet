@@ -1,0 +1,76 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "zuUvIb",
+    "name": "PartidosArgentina",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "LIarBI"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "vNQb2c"
+          },
+          "activity": "${SendActivity_vNQb2c()}"
+        },
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "PcUyNw"
+          },
+          "resultProperty": "dialog.response",
+          "url": "http://api.football-data.org/v4/teams/762/matches",
+          "headers": {
+            "X-Auth-Token": "95cbd5ca574543b491421bb97e837d61"
+          }
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "NPxKDu",
+            "name": "Partidos"
+          },
+          "property": "dialog.matches",
+          "value": "=dialog.response.content.matches"
+        },
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "LgNYDf"
+          },
+          "index": "dialog.foreach.index",
+          "value": "dialog.foreach.value",
+          "itemsProperty": "dialog.matches",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "Ncwh5L"
+              },
+              "activity": "${SendActivity_Ncwh5L()}"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "2HRTQU"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "PartidosArgentina.lg",
+  "recognizer": "PartidosArgentina.lu.qna",
+  "id": "PartidosArgentina"
+}

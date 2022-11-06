@@ -1,0 +1,23 @@
+[import](common.lg)
+
+# SendActivity_6Yav6u_text()
+- ${dialog.foreach.value.homeTeam.name} vs ${dialog.foreach.value.awayTeam.name}  ${dialog.foreach.value.utcDate}
+# SendActivity_6Yav6u()
+[Activity
+    Text = ${SendActivity_6Yav6u_text()}
+]
+
+# SendActivity_Lvusun()
+[Activity
+    Text = ${SendActivity_Lvusun_text()}
+]
+
+# SendActivity_Lvusun_text()
+- En la jornada ${user.matchday} hay ${dialog.quantity} partidos
+# ChoiceInput_Prompt_dS13bl()
+[Activity
+    Text = ${ChoiceInput_Prompt_dS13bl_text()}
+]
+
+# ChoiceInput_Prompt_dS13bl_text()
+- Los partidos de que jornada queres ver?

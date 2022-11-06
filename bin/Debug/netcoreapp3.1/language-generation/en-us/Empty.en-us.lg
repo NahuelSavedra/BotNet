@@ -6,8 +6,7 @@
 ]
 
 # SendActivity_Greeting_text()
-- Welcome to your bot.
-
+- Bienvenido a la copa del mundo Qatar 2022
 # SendActivity_DidNotUnderstand()
 [Activity
     Text = ${SendActivity_DidNotUnderstand_text()}

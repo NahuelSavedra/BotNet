@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# SendActivity_L2hOs3()
+[Activity
+    Text = ${SendActivity_L2hOs3_text()}
+]
+
+# SendActivity_L2hOs3_text()
+- A ver el fixture
+# SendActivity_fTzMqk()
+[Activity
+    Text = ${SendActivity_fTzMqk_text()}
+]
+
+# SendActivity_fTzMqk_text()
+- La competencia se llama ${dialog.name}

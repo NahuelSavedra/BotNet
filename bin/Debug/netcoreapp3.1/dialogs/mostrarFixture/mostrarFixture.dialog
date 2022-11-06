@@ -1,0 +1,67 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "jv5OFZ",
+    "name": "mostrarFixture",
+    "comment": "mostrar fixture del mundial"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "xJjjAm"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "L2hOs3"
+          },
+          "activity": "${SendActivity_L2hOs3()}"
+        },
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "ZKQSC4"
+          },
+          "resultProperty": "dialog.api_response",
+          "method": "GET",
+          "url": "http://api.football-data.org/v4/competitions/WC",
+          "headers": {
+            "X-Auth-Token": "95cbd5ca574543b491421bb97e837d61"
+          },
+          "responseType": "json"
+        },
+        {
+          "$kind": "Microsoft.SetProperties",
+          "$designer": {
+            "id": "5n9CUV"
+          },
+          "assignments": []
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "vu10Th"
+          },
+          "value": "=dialog.api_response.content.name",
+          "property": "dialog.name"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "fTzMqk"
+          },
+          "activity": "${SendActivity_fTzMqk()}"
+        }
+      ]
+    }
+  ],
+  "generator": "mostrarFixture.lg",
+  "recognizer": "mostrarFixture.lu.qna",
+  "id": "mostrarFixture"
+}
