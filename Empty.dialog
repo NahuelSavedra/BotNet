@@ -156,6 +156,24 @@
         }
       ],
       "entities": []
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "IayovO",
+        "name": "jornada"
+      },
+      "intent": "jornada",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "KUaF2Z"
+          },
+          "activityProcessed": true,
+          "dialog": "PartidosPorDia"
+        }
+      ]
     }
   ],
   "generator": "Empty.lg",
@@ -182,6 +200,10 @@
       {
         "intent": "seleccion",
         "pattern": "seleccion"
+      },
+      {
+        "intent": "jornada",
+        "pattern": "jornada"
       }
     ]
   }

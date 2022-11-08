@@ -1,0 +1,22 @@
+[import](common.lg)
+
+# ChoiceInput_Prompt_OLEeje_text()
+- Los partidos de que jornada queres ver?
+# ChoiceInput_Prompt_OLEeje()
+[Activity
+    Text = ${ChoiceInput_Prompt_OLEeje_text()}
+]
+
+# SendActivity_i1vEhR_text()
+- En la jornada ${user.matchday} hay ${dialog.quantity} partidos
+# SendActivity_i1vEhR()
+[Activity
+    Text = ${SendActivity_i1vEhR_text()}
+]
+
+# SendActivity_KmCjOZ_text()
+- ${dialog.foreach.value.homeTeam.name} vs ${dialog.foreach.value.awayTeam.name}  ${dialog.foreach.value.utcDate}
+# SendActivity_KmCjOZ()
+[Activity
+    Text = ${SendActivity_KmCjOZ_text()}
+]

@@ -1,0 +1,109 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "pO3LkB",
+    "name": "PartidosPorDia",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "yQA07M"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "OLEeje"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "prompt": "${ChoiceInput_Prompt_OLEeje()}",
+          "property": "user.matchday",
+          "value": "=user.matchday",
+          "outputFormat": "value"
+        },
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "tjlUy8"
+          },
+          "resultProperty": "dialog.response",
+          "method": "GET",
+          "url": "http://api.football-data.org/v4/competitions/WC/matches?matchday=${user.matchday}",
+          "headers": {
+            "X-Auth-Token": "95cbd5ca574543b491421bb97e837d61"
+          }
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "l1ZZQ3",
+            "name": "PartidosPorDia"
+          },
+          "value": "=dialog.response.content.matches",
+          "property": "dialog.matches"
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "lOBASI",
+            "name": "CantidadPartidosPorDia"
+          },
+          "value": "=dialog.response.content.resultSet.count",
+          "property": "dialog.quantity"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "i1vEhR"
+          },
+          "activity": "${SendActivity_i1vEhR()}"
+        },
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "XnbGA4"
+          },
+          "index": "dialog.foreach.index",
+          "value": "dialog.foreach.value",
+          "itemsProperty": "dialog.matches",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "KmCjOZ"
+              },
+              "activity": "${SendActivity_KmCjOZ()}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "PartidosPorDia.lg",
+  "recognizer": "PartidosPorDia.lu.qna",
+  "id": "PartidosPorDia"
+}
