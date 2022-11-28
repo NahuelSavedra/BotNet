@@ -99,6 +99,15 @@
               "activity": "${SendActivity_KmCjOZ()}"
             }
           ]
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "MOpEcZ"
+          },
+          "properties": [
+            "user.matchday"
+          ]
         }
       ]
     }

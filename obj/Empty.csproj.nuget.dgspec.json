@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nahue\\Desktop\\web 3\\ProyectoWeb3\\Empty\\Empty\\Empty.csproj": {}
+    "C:\\Users\\nahue\\Desktop\\Bot\\Empty\\Empty.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nahue\\Desktop\\web 3\\ProyectoWeb3\\Empty\\Empty\\Empty.csproj": {
+    "C:\\Users\\nahue\\Desktop\\Bot\\Empty\\Empty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nahue\\Desktop\\web 3\\ProyectoWeb3\\Empty\\Empty\\Empty.csproj",
+        "projectUniqueName": "C:\\Users\\nahue\\Desktop\\Bot\\Empty\\Empty.csproj",
         "projectName": "Empty",
-        "projectPath": "C:\\Users\\nahue\\Desktop\\web 3\\ProyectoWeb3\\Empty\\Empty\\Empty.csproj",
+        "projectPath": "C:\\Users\\nahue\\Desktop\\Bot\\Empty\\Empty.csproj",
         "packagesPath": "C:\\Users\\nahue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nahue\\Desktop\\web 3\\ProyectoWeb3\\Empty\\Empty\\obj\\",
+        "outputPath": "C:\\Users\\nahue\\Desktop\\Bot\\Empty\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nahue\\Desktop\\web 3\\ProyectoWeb3\\Empty\\Empty\\NuGet.Config",
+          "C:\\Users\\nahue\\Desktop\\Bot\\Empty\\NuGet.Config",
           "C:\\Users\\nahue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

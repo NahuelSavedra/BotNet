@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8a7tsw00QHquSNkycTRg8uZrBj6IDkebNt+klZozlwRg5S+LuAH8jAxCKpIqbWasevHRF+Bieg5+Ee4bVyjnJA==",
+  "dgSpecHash": "ywgDrN4ALEIecTcNQka2ZKEOiJMzUZ6KDYMR/9bGoXstMs6ws8S+HD23WSLMiQj2maKBukOIFweYWSQjWqxbBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nahue\\Desktop\\web 3\\ProyectoWeb3\\Empty\\Empty\\Empty.csproj",
+  "projectFilePath": "C:\\Users\\nahue\\Desktop\\Bot\\Empty\\Empty.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nahue\\.nuget\\packages\\adaptiveexpressions\\4.17.1\\adaptiveexpressions.4.17.1.nupkg.sha512",
     "C:\\Users\\nahue\\.nuget\\packages\\antlr4.runtime.standard\\4.8.0\\antlr4.runtime.standard.4.8.0.nupkg.sha512",
